@@ -1,0 +1,163 @@
+/* Estilo general de la sección de alquiler de carros */
+            .car-rental-section {
+                background-color: #f2f2f2;
+                padding: 20px;
+            }
+
+            /* Estilo del encabezado de la sección */
+            .car-rental-section h2 {
+                color: #333;
+                text-align: center;
+            }
+
+            /* Estilo de la lista de carros disponibles */
+            .car-list {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            /* Estilo de cada elemento de la lista de carros */
+            .car-list li {
+                background-color: #fff;
+                border-radius: 5px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                padding: 10px;
+                margin-bottom: 10px;
+            }
+
+            /* Estilo del título de cada carro en la lista */
+            .car-list li h3 {
+                color: #333;
+            }
+
+            /* Estilo de la descripción de cada carro en la lista */
+            .car-list li p {
+                color: #666;
+            }
+
+            /* Estilo del botón de alquilar */
+            .car-list li .rent-button {
+                background-color: #007bff;
+                border: none;
+                color: #fff;
+                padding: 5px 10px;
+                border-radius: 3px;
+                cursor: pointer;
+            }
+
+            /* Cambio de color del botón de alquilar al pasar el cursor por encima */
+            .car-list li .rent-button:hover {
+                background-color: purple;
+            }
+
+            .centered-image {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .centered-image img {
+                max-width: 30%;
+                max-height: 30%;
+            }
+
+            .left-image {
+                display: flex;
+                justify-content: left;
+                align-items: left;
+            }
+
+            .left-image img {
+                width: 500px;
+                height: 400px;
+            }
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                                    /* Estilo general de la sección de compra de carros */
+            .car-rental-section {
+                background-color: #f2f2f2;
+                padding: 20px;
+            }
+
+            /* Estilo del encabezado de la sección */
+            .car-rental-section h2 {
+                color: #333;
+                text-align: center;
+            }
+
+            /* Estilo de la lista de carros disponibles */
+            .car-list {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            /* Estilo de cada elemento de la lista de carros */
+            .car-list li {
+                background-color: #fff;
+                border-radius: 5px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                padding: 10px;
+                margin-bottom: 10px;
+            }
+
+            /* Estilo del título de cada carro en la lista */
+            .car-list li h3 {
+                color: #333;
+            }
+
+            /* Estilo de la descripción de cada carro en la lista */
+            .car-list li p {
+                color: #666;
+            }
+
+            /* Estilo del botón de compra */
+            .car-list li .comp-button {
+                background-color: #007bff;
+                border: none;
+                color: #fff;
+                padding: 5px 10px;
+                border-radius: 3px;
+                cursor: pointer;
+            }
+
+            /* Cambio de color del botón de compra al pasar el cursor por encima */
+            .car-list li .comp-button:hover {
+                background-color: purple;
+            }
+
+            .centered-image {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .centered-image img {
+                max-width: 20%;
+                max-height: 15%;
+                border-radius: 14px;
+            }
+
+            .left-image {
+                display: flex;
+                justify-content: left;
+                align-items: left;
+            }
+
+            .left-image img {
+                width: 500px;
+                height: 400px;
+            }

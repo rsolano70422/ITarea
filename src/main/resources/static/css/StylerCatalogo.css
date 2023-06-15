@@ -1,0 +1,92 @@
+
+/* 
+    Created on : 14 jun 2023, 21:26:31
+    Author     : AMD
+*/
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgrey;
+    font-family: sans-serif;
+    padding: 40px 0px 20px 0px;
+}
+
+.header {
+    background-color: lightslategray;
+    font-family: sans-serif;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 72px;
+    line-height: 80px;
+}
+
+.contenido {
+    position: fixed;
+    line-height: 50px;
+    top: 80px;
+    right: 0;
+    width: 100%;
+    bottom: 20px;
+    overflow-y: scroll;
+    padding: 30px;
+}
+
+.footer {
+    background-color: gray;
+    height: 25px;
+    line-height: 25px;
+    position: fixed;
+    right: 0;
+    width: 100%;
+    bottom: 0;
+}
+
+.posicionImagen {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px; 
+    margin-right: 20px; 
+}
+
+.posicionImagen img {
+    max-width: 100%;
+    margin-left: 20px;
+}
+
+h1 {
+    color: black;
+    font-size: 30px;
+    font-family: var;
+    background-color: lightgray;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: black;
+    font-family: sans-serif;
+    margin-left: 40px;
+    text-align: match-parent;
+    font-style: italic;
+    text-decoration: underline; 
+}
+
+h4 {
+    color: black;
+    font-family: sans-serif;
+    margin-left: 40px;
+    text-align: center;
+}
+

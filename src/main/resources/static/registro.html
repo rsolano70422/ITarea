@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+
+
+
+<html>
+    <head>
+        <title>Registro Clientes</title>
+        <meta charset="UTF-8">
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+
+
+        <aside class="aside">
+            <h2>Registrese Ahora</h2>
+            <p class="p">Obten descuentos 
+                y muchos beneficios más</p>
+
+            <div class="img-container">
+                <img src="img/descuento.jpg" alt="descuento" width="250"/>
+            </div>
+
+        </aside>
+
+
+        <section class="contenido">
+            <h2>Formulario de Registro</h2>
+
+
+            <article>
+                <header>
+                    <h3>Registro de Clientes</h3>
+                </header>
+
+                <form action="cliente/registro" method="post" class="formulario">
+
+                    <fieldset>
+
+                        <legend>Datos del Cliente</legend>
+
+                        <label for="name">Nombre:</label>
+                        <input type="text" name="nombre" id="name" />
+
+                        <br>
+                        <br>
+
+
+                        <label for="clave">Clave:</label>
+                        <input type="password" name="clave" id="clave" />
+                        <br>
+                        <br>
+
+                        <label for="direccion">Direccion:</label>
+                        <textarea name="direccion" rows="2" cols="20" id="direccion"></textarea>
+
+                        <br>
+                        <br>
+
+                        <label form="edad">Edad:</label>
+                        <input type="number" name="edad" id="edad" max="120" min="18" />
+
+                        <br>
+                        <br>
+
+                        <label form="correo">Correo:</label>
+                        <input type="email" name="correo" id="correo"  />
+                        <br>
+                        <br>
+
+                        <input type="submit" value="Registrar"  />
+
+                    </fieldset>
+
+                </form>
+
+                <div class="img-container">
+                    <img src="img/car-driving-7.gif" alt="car" width="200"/>
+                </div>
+
+            </article>
+
+
+        </section>
+
+
+        <footer class="footer">          
+            <p> Autos CR | Todos los derechos reservados &COPY; 2023</p>
+        </footer>
+
+
+
+    </body>
+</html>
